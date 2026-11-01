@@ -27,12 +27,12 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'NexusNFT - Decentralized NFT Marketplace',
-  description: 'Buy, sell, and discover rare digital assets on NexusNFT - a decentralized NFT marketplace with low fees.',
+  title: 'LayerNFT - Decentralized NFT Marketplace',
+  description: 'Buy, sell, and discover rare digital assets on LayerNFT - a decentralized NFT marketplace with low fees.',
   keywords: ['NFT', 'marketplace', 'blockchain', 'crypto', 'digital art', 'collectibles'],
-  authors: [{ name: 'NexusNFT' }],
+  authors: [{ name: 'LayerNFT' }],
   openGraph: {
-    title: 'NexusNFT - Decentralized NFT Marketplace',
+    title: 'LayerNFT - Decentralized NFT Marketplace',
     description: 'Buy, sell, and discover rare digital assets',
     type: 'website',
   },

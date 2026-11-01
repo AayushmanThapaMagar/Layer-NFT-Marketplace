@@ -141,7 +141,7 @@ function PortfolioModalInner() {
               {/* Actions */}
               <div className="flex gap-3 mt-5">
                 <a
-                  href="https://github.com/hyrumpro"
+                  href="https://github.com/AayushmanThapaMagarx"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary gap-2 flex-1 justify-center text-sm"

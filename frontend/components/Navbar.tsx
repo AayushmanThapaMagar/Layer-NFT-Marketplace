@@ -89,12 +89,12 @@ export function Navbar() {
       <nav className="container mx-auto flex h-16 items-center justify-between px-4" aria-label="Main">
         {/* Logo + Nav Links */}
         <div className="flex items-center gap-8">
-          <Link href="/" className="group flex items-center gap-2.5" aria-label="NexusNFT home">
+          <Link href="/" className="group flex items-center gap-2.5" aria-label="LayerNFT home">
             <div className="relative h-8 w-8 shrink-0">
               <div className="h-8 w-8 rotate-45 rounded-lg bg-gradient-to-br from-primary to-accent transition-transform duration-200 group-hover:scale-110" />
               <div className="absolute inset-0 h-8 w-8 rotate-45 rounded-lg bg-gradient-to-br from-primary to-accent opacity-40 blur-md transition-opacity duration-200 group-hover:opacity-70" />
             </div>
-            <span className="font-display text-xl font-bold gradient-text">NexusNFT</span>
+            <span className="font-display text-xl font-bold gradient-text">LayerNFT</span>
           </Link>
 
           <div className="hidden items-center gap-1 md:flex">

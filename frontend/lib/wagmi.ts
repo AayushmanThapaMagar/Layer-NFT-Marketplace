@@ -10,7 +10,7 @@ import { sepolia } from 'wagmi/chains'
 export const config = (
   typeof window !== 'undefined'
     ? getDefaultConfig({
-        appName: process.env.NEXT_PUBLIC_APP_NAME || 'NexusNFT',
+        appName: process.env.NEXT_PUBLIC_APP_NAME || 'LayerNFT',
         projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID!,
         chains: [sepolia],
         ssr: true,

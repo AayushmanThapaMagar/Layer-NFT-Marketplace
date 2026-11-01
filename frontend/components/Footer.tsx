@@ -16,7 +16,7 @@ export function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent rotate-45 group-hover:scale-110 transition-transform duration-200" />
                 <div className="absolute inset-0 w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent opacity-30 blur-md rotate-45" />
               </div>
-              <span className="font-display text-xl font-bold gradient-text">NexusNFT</span>
+              <span className="font-display text-xl font-bold gradient-text">LayerNFT</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               A decentralized NFT marketplace with low fees and true blockchain ownership.
@@ -103,7 +103,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border/30 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} NexusNFT. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} LayerNFT. All rights reserved.</p>
           <div className="flex items-center gap-1.5 text-xs">
             <Zap className="w-3 h-3 text-primary" />
             <span>Powered by Ethereum</span>

@@ -254,7 +254,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Why NexusNFT ── */}
+      {/* ── Why LayerNFT ── */}
       <section className="relative overflow-hidden py-16 md:py-24">
         {/* Bottom ambient glow */}
         <div
@@ -265,7 +265,7 @@ export default function HomePage() {
 
         <div className="container relative mx-auto px-4">
           <Reveal className="mb-12 text-center">
-            <h2 className="font-display text-2xl font-bold md:text-3xl">Why NexusNFT?</h2>
+            <h2 className="font-display text-2xl font-bold md:text-3xl">Why LayerNFT?</h2>
             <p className="mt-2 text-sm text-muted-foreground">Built for creators and collectors</p>
           </Reveal>
 
