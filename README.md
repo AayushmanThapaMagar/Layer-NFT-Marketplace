@@ -1,14 +1,14 @@
 LayerNFT: A Decentralized NFT Marketplace on Ethereum
 
-![Stars](https://img.shields.io/github/stars/AayushmanThapaMagar/Layer-NFT-Marketplace?style=social) ![Fork](https://img.shields.io/github/forks/Aayushman Thapa Magar/Layer-NFT-Marketplace?style=social) ![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields) ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+!Stars !Fork !PRs !License
 
-<img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
-<img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
-<img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-<img src="https://img.shields.io/badge/-Solidity-black?style=for-the-badge&logoColor=white&logo=solidity&color=363636" alt="solidity" />
-<img src="https://img.shields.io/badge/-The_Graph-black?style=for-the-badge&logoColor=white&logo=thegraph&color=6747ED" alt="thegraph" />
-<img src="https://img.shields.io/badge/-Hardhat-black?style=for-the-badge&logoColor=white&logo=hardhat&color=FFF100" alt="hardhat" />
-<img src="https://img.shields.io/badge/-IPFS-black?style=for-the-badge&logoColor=white&logo=ipfs&color=65C2CB" alt="ipfs" />
+<img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="Next.js" />
+<img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
+<img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/-Solidity-black?style=for-the-badge&logoColor=white&logo=solidity&color=363636" alt="Solidity" />
+<img src="https://img.shields.io/badge/-The_Graph-black?style=for-the-badge&logoColor=white&logo=thegraph&color=6747ED" alt="The Graph" />
+<img src="https://img.shields.io/badge/-Hardhat-black?style=for-the-badge&logoColor=white&logo=hardhat&color=FFF100" alt="Hardhat" />
+<img src="https://img.shields.io/badge/-IPFS-black?style=for-the-badge&logoColor=white&logo=ipfs&color=65C2CB" alt="IPFS" />
 
 Overview
 
@@ -81,7 +81,7 @@ cp .env.example .env.local   # Configure contract addresses, Graph URL, and Pina
 pnpm dev
 
 
-Once the development server starts, visit http://localhost:3000 in your browser.
+Once the development server starts, open http://localhost:3000 in your browser.
 
 Environment Variables
 frontend/.env.local
@@ -101,9 +101,9 @@ ETHERSCAN_API_KEY=...
 
 Author
 
-Aayushman Thapa MAgar
+Hyrum Perez
 
-GitHub: @Aayushman Thapa Magar
+GitHub: @AayushmanThapaMagar
 Project Repository: Layer-NFT-Marketplace
 License
 
