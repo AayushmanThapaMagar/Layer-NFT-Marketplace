@@ -1,16 +1,16 @@
 {
-  "name": "nexusnft-subgraph",
+  "name": "Layernft-subgraph",
   "version": "1.0.0",
-  "description": "The Graph subgraph for NexusNFT Marketplace",
+  "description": "The Graph subgraph for LayerNFT Marketplace",
   "license": "MIT",
   "scripts": {
     "prepare":        "node scripts/prepare.js",
     "codegen":        "npm run prepare && graph codegen",
     "build":          "npm run prepare && graph build",
     "deploy":         "npm run prepare && graph deploy --studio nft-markeplace-2",
-    "deploy:local":   "npm run prepare && graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 nexusnft/nexusnft",
-    "create:local":   "graph create --node http://localhost:8020/ nexusnft/nexusnft",
-    "remove:local":   "graph remove --node http://localhost:8020/ nexusnft/nexusnft"
+    "deploy:local":   "npm run prepare && graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 Layernft/Layernft",
+    "create:local":   "graph create --node http://localhost:8020/ Layernft/Layernft",
+    "remove:local":   "graph remove --node http://localhost:8020/ Layernft/Layernft"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.71.2",

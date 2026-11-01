@@ -432,7 +432,7 @@
       },
       {
         "indexed": false,
-        "internalType": "enum INexusMarketplace.ListingType",
+        "internalType": "enum ILayerMarketplace.ListingType",
         "name": "listingType",
         "type": "uint8"
       }
@@ -900,7 +900,7 @@
         "type": "address"
       },
       {
-        "internalType": "enum INexusMarketplace.AuctionStatus",
+        "internalType": "enum ILayerMarketplace.AuctionStatus",
         "name": "status",
         "type": "uint8"
       }
@@ -1236,12 +1236,12 @@
             "type": "address"
           },
           {
-            "internalType": "enum INexusMarketplace.AuctionStatus",
+            "internalType": "enum ILayerMarketplace.AuctionStatus",
             "name": "status",
             "type": "uint8"
           }
         ],
-        "internalType": "struct INexusMarketplace.Auction",
+        "internalType": "struct ILayerMarketplace.Auction",
         "name": "",
         "type": "tuple"
       }
@@ -1297,7 +1297,7 @@
             "type": "bool"
           }
         ],
-        "internalType": "struct INexusMarketplace.CollectionOffer",
+        "internalType": "struct ILayerMarketplace.CollectionOffer",
         "name": "",
         "type": "tuple"
       }
@@ -1363,12 +1363,12 @@
             "type": "bool"
           },
           {
-            "internalType": "enum INexusMarketplace.ListingType",
+            "internalType": "enum ILayerMarketplace.ListingType",
             "name": "listingType",
             "type": "uint8"
           }
         ],
-        "internalType": "struct INexusMarketplace.Listing",
+        "internalType": "struct ILayerMarketplace.Listing",
         "name": "",
         "type": "tuple"
       }
@@ -1434,7 +1434,7 @@
             "type": "bool"
           }
         ],
-        "internalType": "struct INexusMarketplace.Offer",
+        "internalType": "struct ILayerMarketplace.Offer",
         "name": "",
         "type": "tuple"
       }
@@ -1554,7 +1554,7 @@
         "type": "bool"
       },
       {
-        "internalType": "enum INexusMarketplace.ListingType",
+        "internalType": "enum ILayerMarketplace.ListingType",
         "name": "listingType",
         "type": "uint8"
       }

@@ -2,11 +2,11 @@
 pragma solidity ^0.8.28;
 
 /**
- * @title INexusMarketplace
- * @dev Interface for Nexus NFT Marketplace
+ * @title ILayerMarketplace
+ * @dev Interface for Layer NFT Marketplace
  * @notice Supports any ERC721 NFT (not just factory-created collections)
  */
-interface INexusMarketplace {
+interface ILayerMarketplace {
     enum ListingType { FixedPrice, TimedAuction }
     enum AuctionStatus { Active, Ended, Cancelled, Sold }
 

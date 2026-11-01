@@ -1,12 +1,12 @@
-# NexusNFT Smart Contracts
+# LayerNFT Smart Contracts
 
-Solidity contracts for the NexusNFT Marketplace, built with Hardhat 3 and deployed on Ethereum Sepolia.
+Solidity contracts for the LayerNFT Marketplace, built with Hardhat 3 and deployed on Ethereum Sepolia.
 
 ## Contracts
 
 | Contract | Description |
 |---|---|
-| `core/NexusMarketplace.sol` | Main marketplace — listings, auctions, offers, fees |
+| `core/LayerMarketplace.sol` | Main marketplace — listings, auctions, offers, fees |
 | `core/NFTCollection.sol` | ERC-721 collection with ERC-2981 royalties and role-based minting |
 | `core/CollectionFactory.sol` | Factory for deploying new NFT collections |
 

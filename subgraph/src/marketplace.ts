@@ -14,7 +14,7 @@ import {
   CollectionOfferAccepted,
   CollectionOfferCancelled,
   FeesWithdrawn
-} from "../generated/NexusMarketplace/NexusMarketplace"
+} from "../generated/LayerMarketplace/LayerMarketplace"
 
 import {
   Listing,

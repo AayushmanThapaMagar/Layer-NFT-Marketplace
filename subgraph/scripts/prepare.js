@@ -6,7 +6,7 @@
  *   node scripts/prepare.js
  *
  * Required .env keys:
- *   MARKETPLACE_ADDRESS         — deployed NexusMarketplace address
+ *   MARKETPLACE_ADDRESS         — deployed LayerMarketplace address
  *   COLLECTION_FACTORY_ADDRESS  — deployed CollectionFactory address
  *   START_BLOCK                 — block number of the earliest deployment
  *   NETWORK                     — e.g. sepolia, mainnet, matic
@@ -72,7 +72,7 @@ const output = fs.readFileSync(templatePath, 'utf8')
 fs.writeFileSync(outputPath, output)
 
 console.log('[prepare] subgraph.yaml generated successfully:')
-console.log(`  NexusMarketplace:  ${marketplaceAddress}`)
+console.log(`  LayerMarketplace:  ${marketplaceAddress}`)
 console.log(`  CollectionFactory: ${factoryAddress}`)
 console.log(`  startBlock:        ${startBlock}`)
 console.log(`  network:           ${network}`)

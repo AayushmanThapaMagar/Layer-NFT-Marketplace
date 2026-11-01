@@ -9,16 +9,16 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/cryptography/EIP712.sol";
 import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
-import "../interfaces/INexusMarketplace.sol";
+import "../interfaces/ILayerMarketplace.sol";
 
 /**
- * @title NexusMarketplace
+ * @title LayerMarketplace
  * @dev Main NFT marketplace contract for listings, auctions, and offers
  * @notice Supports any ERC721 NFT (not just factory-created collections)
- * @custom:security-contact security@nexusnft.io
+ * @custom:security-contact security@Layernft.io
  */
-contract NexusMarketplace is
-    INexusMarketplace,
+contract LayerMarketplace is
+    ILayerMarketplace,
     IERC721Receiver,
     ReentrancyGuard,
     Pausable,
@@ -64,7 +64,7 @@ contract NexusMarketplace is
     constructor(
         address feeRecipient_,
         address factory_
-    ) Ownable(msg.sender) EIP712("NexusMarketplace", "1") {
+    ) Ownable(msg.sender) EIP712("LayerMarketplace", "1") {
         require(feeRecipient_ != address(0), "Invalid fee recipient");
         feeRecipient = feeRecipient_;
         factory = factory_;

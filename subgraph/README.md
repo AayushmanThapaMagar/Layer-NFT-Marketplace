@@ -1,11 +1,11 @@
-# NexusNFT Subgraph
+# LayerNFT Subgraph
 
-The Graph subgraph for indexing NexusNFT Marketplace data.
+The Graph subgraph for indexing LayerNFT Marketplace data.
 
 ## Overview
 
 This subgraph indexes all events from:
-- **NexusMarketplace** - Listings, auctions, bids, offers, sales
+- **LayerMarketplace** - Listings, auctions, bids, offers, sales
 - **CollectionFactory** - Collection creation and verification
 - **NFTCollection** (dynamic) - NFT minting, transfers, royalties
 
@@ -22,7 +22,7 @@ Update `subgraph.yaml` with your deployed contract addresses:
 
 ```yaml
 dataSources:
-  - name: NexusMarketplace
+  - name: LayerMarketplace
     source:
       address: "0x..." # Your marketplace address
       startBlock: 12345 # Deployment block
@@ -210,7 +210,7 @@ npm run deploy-local
 ```
 subgraph/
 ├── abis/                    # Contract ABIs
-│   ├── NexusMarketplace.json
+│   ├── LayerMarketplace.json
 │   ├── NFTCollection.json
 │   ├── CollectionFactory.json
 │   ├── ERC721.json
@@ -227,7 +227,7 @@ subgraph/
 
 ## Events Indexed
 
-### NexusMarketplace
+### LayerMarketplace
 - `ItemListed` - New listing created
 - `ItemSold` - NFT sold
 - `ListingCancelled` - Listing cancelled

@@ -15,13 +15,13 @@ async function main() {
   const factory = await viem.deployContract("CollectionFactory", []);
   console.log("CollectionFactory:", factory.address);
 
-  // ── NexusMarketplace ─────────────────────────────────────────────────────
-  console.log("Deploying NexusMarketplace...");
-  const marketplace = await viem.deployContract("NexusMarketplace", [
+  // ── LayerMarketplace ─────────────────────────────────────────────────────
+  console.log("Deploying LayerMarketplace...");
+  const marketplace = await viem.deployContract("LayerMarketplace", [
     deployer.account.address, // feeRecipient — replace with your multisig for mainnet
     factory.address,
   ]);
-  console.log("NexusMarketplace:", marketplace.address);
+  console.log("LayerMarketplace:", marketplace.address);
 
   // Wire factory ↔ marketplace
   await factory.write.setMarketplace([marketplace.address]);

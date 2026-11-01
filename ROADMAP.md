@@ -1,4 +1,4 @@
-# NexusNFT — Roadmap
+# LayerNFT — Roadmap
 
 Items are grouped by area. Checked items are shipped; unchecked are planned or in progress.
 
@@ -13,7 +13,7 @@ Items are grouped by area. Checked items are shipped; unchecked are planned or i
 - [x] Marketplace pause / unpause (admin)
 - [ ] **External NFT support in "List Existing NFT"**
   - Use Alchemy NFT API (`getNFTsForOwner`) to surface any ERC-721 in the connected wallet, not just NFTs indexed by the subgraph.
-  - The `NexusMarketplace` contract is already permissionless (no factory gate on `listItem`) so any standard ERC-721 can be listed today.
+  - The `LayerMarketplace` contract is already permissionless (no factory gate on `listItem`) so any standard ERC-721 can be listed today.
   - Implementation: new `/api/nfts` route (server-side, reuses existing Alchemy key from `SEPOLIA_RPC_URL`) + `useExternalNFTs` hook + split picker into "Your Collections" / "Other Wallet NFTs" sections.
   - Known edge case: external NFT images may come from unknown domains — use `unoptimized` on those `<Image>` elements.
 

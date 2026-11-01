@@ -3,7 +3,7 @@ import { describe, it, beforeEach } from "node:test";
 import { network } from "hardhat";
 import { parseEther } from "viem";
 
-describe("NexusMarketplace", async function () {
+describe("LayerMarketplace", async function () {
   const { viem } = await network.connect();
   const publicClient = await viem.getPublicClient();
   
@@ -24,7 +24,7 @@ describe("NexusMarketplace", async function () {
 
     factory = await viem.deployContract("CollectionFactory", []);
 
-    marketplace = await viem.deployContract("NexusMarketplace", [
+    marketplace = await viem.deployContract("LayerMarketplace", [
       feeRecipient.account.address,
       factory.address
     ]);

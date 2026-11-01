@@ -1,17 +1,17 @@
 specVersion: 1.0.0
-description: NexusNFT Marketplace Subgraph - Indexes NFT listings, auctions, offers, and sales
-repository: https://github.com/nexusnft/nft-marketplace
+description: LayerNFT Marketplace Subgraph - Indexes NFT listings, auctions, offers, and sales
+repository: https://github.com/Layernft/nft-marketplace
 schema:
   file: ./schema.graphql
 
 dataSources:
-  # Nexus Marketplace - Main marketplace contract
+  # Layer Marketplace - Main marketplace contract
   - kind: ethereum
-    name: NexusMarketplace
+    name: LayerMarketplace
     network: {{NETWORK}}
     source:
       address: "{{MARKETPLACE_ADDRESS}}"
-      abi: NexusMarketplace
+      abi: LayerMarketplace
       startBlock: {{START_BLOCK}}
     mapping:
       kind: ethereum/events
@@ -27,8 +27,8 @@ dataSources:
         - User
         - MarketplaceStats
       abis:
-        - name: NexusMarketplace
-          file: ./abis/NexusMarketplace.json
+        - name: LayerMarketplace
+          file: ./abis/LayerMarketplace.json
         - name: ERC721
           file: ./abis/ERC721.json
         - name: ERC2981
